@@ -10,7 +10,7 @@ export default function Navbar() {
       <Nav>
         <div className="brand">
           <div className="container">
-            <img style={{ width: 100, height: 100 }} src={gaslogo} alt="" />
+            <img style={{ width: 50, height: 50 }} src={gaslogo} alt="" />
             Mi service
           </div>
           <div className="toggle">
@@ -170,9 +170,9 @@ const ResponsiveNav = styled.div`
   display: flex;
   position: absolute;
   z-index: 1;
-  top: ${({ state }) => (state ? "50px" : "-400px")};
+  top: ${({ state }) => (state ? "60px" : "-400px")};
   background-color: white;
-  height: 30vh;
+  height: 50vh;
   width: 100%;
   align-items: center;
   transition: 0.3s ease-in-out;

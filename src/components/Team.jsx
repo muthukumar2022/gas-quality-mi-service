@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import styled from "styled-components";
 import Destination1 from "../assets/mani.jpg";
 import Destination2 from "../assets/muthu.jpeg";
-import Destination3 from "../assets/team3.jpg";
+import Destination3 from "../assets/mani.jpg";
 import info1 from "../assets/info1.png";
 import info2 from "../assets/info2.png";
 import info3 from "../assets/info3.png";
@@ -63,12 +63,12 @@ export default function Team() {
         {data.map((destination) => {
           return (
             <div className="destination">
-              <div style={{ height: 520 }}>
-                <img src={destination.image} alt="" />
-              </div>
-              <div style={{}}>
-                <h3>{destination.title}</h3>
-              </div>
+              {/* <div style={{ height: 520 }}> */}
+              <img src={destination.image} alt="" />
+              {/* </div> */}
+
+              <h3>{destination.title}</h3>
+
               {/* <p>{destination.subTitle}</p> */}
               <div className="info">
                 {/* <div className="services">
